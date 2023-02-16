@@ -32,10 +32,12 @@ const styles = StyleSheet.create({
   main: {
     flex: 1,
     backgroundColor: 'white',
+    marginTop: 10
   },
   profile:{
     flexDirection: 'row',
     alignItems: 'center',
+    marginBottom: 10
   },
   story: {
     width: 35,

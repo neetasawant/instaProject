@@ -5,14 +5,12 @@ import {getStorage} from 'firebase/storage';
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
 const firebaseConfig = {
-  apiKey: 'AIzaSyDP7l1zBfradtwIOshK2T0irnHdH10TRkw',
-  authDomain: 'rn-nee.firebaseapp.com',
-  databaseURL: 'https://rn-nee-default-rtdb.firebaseio.com',
-  projectId: 'rn-nee',
-  storageBucket: 'rn-nee.appspot.com',
-  messagingSenderId: '923092555672',
-  appId: '1:923092555672:web:6dce32ed55425492f57ded',
-  measurementId: 'G-0DNFPRM66N',
+  apiKey: "AIzaSyApA6iOcu-1yTXJQshuzkPsRv7c9wu5ZE8",
+  authDomain: "rn-int-proj.firebaseapp.com",
+  projectId: "rn-int-proj",
+  storageBucket: "rn-int-proj.appspot.com",
+  messagingSenderId: "229096288674",
+  appId: "1:229096288674:web:65d73a1cc8511620f682fb"
 };
 
 // Initialize Firebase

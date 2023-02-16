@@ -57,7 +57,7 @@ const Feed = ({navigation}) => {
 
   return (
     <ScrollView style={styles.container}>
-      <Divider width={1} orientation="vertical" />
+      
       {posts.length === 0 && (
         <View>
           <Text style={{color: 'black'}}>No posts yet! Add some!!</Text>
@@ -66,6 +66,7 @@ const Feed = ({navigation}) => {
       {posts.map((post, index) => {
         return (
           <View key={index}>
+            <Divider width={1} orientation="vertical" />
             <FeedHeader post={post} />
             <FeedImage post={post} />
             <View
